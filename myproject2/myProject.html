@@ -1,0 +1,122 @@
+<!DOCTYPE HTML>
+
+<html>
+	<head>
+		<title>My first Notes</title>
+		<link rel="stylesheet" href="style.css">
+	</head>
+	
+	<body>
+	<div class="upper_side">
+	
+		<div>
+			<img src="udacity_logo.png" alt="Ooops" style="width:250px;height:150px;">
+		</div>
+		
+		<div>
+			<span class="span_udacity_style">Intro to Programming</span><br>
+			- subject : Make a Stylish Webpage<br>
+			- date : 17-06-09<br>
+			- Designer : gihong96@gmail.com<br>
+			
+		</div>
+	</div>
+    <div class="big_title">
+		<h1 class="span_udacity_style">The World Wide Web</h1>
+		
+			<span>
+				The <b>World Wide Web</b>(simply called 'www') is the collection of HTML that bases for almost every page. Plain text, HTML, Images, Videos, Music, etc... can be found on the web.<br> 
+				There are some components of the web. I just explained them below.
+			</span>
+			
+			<div style="display:flex;">
+				<div class="subtitle">
+					<div class="subtitle_more">
+						<h3 class="topic">Browser</h3>
+							Browser such as Chrome, IE, FireFox makes requests via the internet to servers.
+					</div>
+					<div class="subtitle_more">
+						<h3 class="topic">HTTP</h3>
+							This is a protocol that browser uses to 	communicate with servers.
+					</div>
+					<div class="subtitle_more">
+						<h3 class="topic">INTERNET</h3>
+							The most largest computer network.
+					</div>
+					<div class="subtitle_more">
+						<h3 class="topic">Servers</h3>
+							Hosts the files.
+					</div>
+				</div>
+				<div class="subtitle">
+					<p>Let me explain this by Udacity lecture's picture.</p>
+					<image src="https://d17h27t6h515a5.cloudfront.net/topher/2017/January/588bdc63_components/components.png" alt="Ooops" width="700px" height="400">
+				</div>
+			</div>
+	</div>
+	
+    <div class="big_title">
+        <h1 class="span_udacity_style">HTML</h1>
+		
+			<span>
+			The web is made with HTML(<em>hyper text markup language</em>) that consist of <b>text content, markup, references to other documents, other links</b>.
+			</span>
+			
+				<div class="subtitle">
+					<div class="subtitle_more">
+						<h3 class="topic">Text content</h3>
+							Plain text is just plain text in html.
+					</div>
+					<div class="subtitle_more">
+						Markup: This made up with tags. Tags are consisted of opening tags and closing tags and the contents which is in between openiing,closing tags. We call whole these as elements. There are some examples about tags.
+						
+							<p><b>- bold tag</b> : The content that locate between this tag will be <b>bolded</b>.</p>
+							<p><b>- emphasis tag</b> : The content that locate between this tag will be <em>emphasized</em>.</p>
+							<p><b>- paragraph tag</b> : The context that locate between this tag will be covered with invinsible block. This is a block element.</p>
+							<p><b>- break tag</b> : This ends a line. So, the text that comes out after this tag, it will be in just below. And this is a inline element.</p>
+							<p><b>- span tag</b> : This is a inline element and some attributes that can change content style might be used(by using class).</p>
+							<p><b>- div tag</b> : This is a block element and some attributes that can change content style might be used(by using class). This also makes invisible box like paragraph tag.</p>
+							<p><b>- image tag</b> : This is for including images. It has some attributes called src and alt. src indicates the image url and if there's no images in it, alt attributes will be used.</p>
+							<p><b>- anchor tag</b> : This one is for making links. It has href attribute that incidates URL. If I use this tag to link to Udacity site, it will show up like this. <br><a href="https://www.udacity.com">Go to Udacity</a></p>
+						
+							<br>
+						<span>and the last but not least, all the white space, new lines, tabs will be rendered as <b>one single space</b>. If you want to display texts in new line. You should use break tag.</span>
+					</div>
+				</div>
+    </div>
+	
+    <div class="big_title">
+		<h1 class="span_udacity_style">HTML Documents</h1>
+			<div class="subtitle">
+				<div class="subtitle_more">
+					<p><b>DOCTYPE</b> : This is what kind of HTML is.</p>
+					<p><b>html tag</b> : This surrounds the entire document.</p>
+					<p><b>head tag</b> : This has kind of metadata and other random stuff such as <em>javascript, css, title tag</em>.
+					<p><b>body tag</b> : Actual contents of the document.
+				</div>
+			</div>
+    </div>
+	
+	<div class="big_title">
+		<h1 class="span_udacity_style">CSS</h1>
+		
+			<span>
+				CSS<em>(cascading style sheets)</em> is code that controls the style of HTML.It is referenced in HTML. As we interpret the meaning of 'cascading', it keeps going down into the rules until find the best one.
+			</span>
+		
+			<div class="subtitle">
+				<div class="subtitle_more">
+					<h3 class="topic">Selector</h3>
+						This select class,HTML tage and write some attribute that is similar with rules between two curly brace. Every rules will be in here and these are applied to appropriate element.
+				</div>
+				<div class="subtitle_more">
+					<h3 class="topic">CSS Styling Method</h3>
+						<p><b>Write in the head tag</b> : Add a style tag and write the CSS. Then, put HTML for the rest of the page below. </p>
+						<p><b>Link CSS file</b> : Add a link tag inside the head tag. Link tag has rel and href attributes.</p>
+						<p><b>Write style in inline HTML</b> : The lecture said this is a bad idea since lots of reapeated codes will take many places. With this method, style attributes will be in every individual HTML element.
+				</div>
+			</div>
+	</div>
+
+	</body>
+</html>

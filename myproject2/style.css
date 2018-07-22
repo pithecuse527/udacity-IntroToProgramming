@@ -1,0 +1,56 @@
+*{
+		font-family:Comic Sans MS;
+}
+
+a{
+	background-color: #ffccdd;
+	padding: 2px;
+	box-shadow:0 2px 4px 0 rgba(0,0,0,0.16);
+	border-radius:30%
+}
+
+.upper_side{
+	margin: auto;
+    width: 50%;
+    padding: 1px;
+	display:flex;
+	border-style: solid;
+    border-color: #b3d9ff;
+	border-radius: 50px 15px;
+}
+
+.span_udacity_style{
+	color: #00ace6;
+	font-weight: bold;
+	font-size:35px;
+}
+
+.big_title{
+	text-align: center;
+	border-style: solid;
+    border-color: #b3d9ff;
+	border-radius: 50px 15px;
+	margin : 15px;
+}
+
+.subtitle{
+	width: 800px;
+	padding: 7px;
+	border-radius: 50px  15px;
+	margin-left: auto; 
+  margin-right: auto; 
+}
+
+.subtitle_more{
+	text-align: center;
+	background-color: #e6f2ff;
+	padding: 30px;
+	margin :10px 50px;
+	box-shadow:0 2px 4px 0 rgba(0,0,0,0.16);
+	border-radius: 50px 15px;
+
+}
+
+.topic{
+	line-height:0.5;
+}
